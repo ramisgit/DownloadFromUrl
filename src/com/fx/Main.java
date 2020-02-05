@@ -1,4 +1,4 @@
-package com.youtube;
+package com.fx;
 	
 import java.io.IOException;
 
@@ -16,7 +16,7 @@ public class Main extends Application {
 	public void start(Stage primaryStage) {
 		
 		try {
-			Parent root = FXMLLoader.load(getClass().getResource("Youtube.fxml"));
+			Parent root = FXMLLoader.load(getClass().getResource("Main.fxml"));
 			Scene scene = new Scene(root, 500, 500);
 			//scene.getStylesheets().add(getClass().getResource("application.css").toExternalForm()); 
 			primaryStage.setScene(scene);

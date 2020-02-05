@@ -1,4 +1,4 @@
-package com.youtube;
+package com.fx.controller;
 
 import java.io.BufferedInputStream;
 import java.io.BufferedReader;
@@ -27,7 +27,7 @@ import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.VBox;
 import javafx.scene.control.Alert.AlertType;
 
-public class YoutubeController {
+public class MainController {
 	@FXML TextField url_input;
 	@FXML TextField optional_file_name;
 	@FXML Button download_btn;
